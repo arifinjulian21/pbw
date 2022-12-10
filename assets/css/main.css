@@ -1,0 +1,88 @@
+/* untuk header */
+.main-nav{
+    background-color: rgb(108, 193, 226);
+}
+
+.main-nav .navbar-nav a.nav-link{
+    color: rgb(255, 255, 255);
+    font-weight:600 ;
+}
+
+.main-nav .navbar-nav .nav-link.active, .main-nav .navbar-nav .nav-link:hover{
+    color: darkorange;
+}
+
+.navbar.scrolled{
+    background-color: aliceblue;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px -10px 30px #666;
+}
+
+.navbar img.main-logo{
+    max-width: 150px;
+}
+.navbar img.main-logo-hitam{
+    display: none;
+}
+
+.navbar.scrolled img.main-logo-hitam{
+    display: inline-block;
+}
+.navbar.scrolled img.main-logo-putih{
+    display: none;
+}
+.navbar.scrolled a.nav-link{
+    color: black;
+}
+
+.main-biru{
+    background-color:rgb(108, 193, 226);
+    color: aliceblue;
+}
+
+.main-biru h2 span{
+    color: coral;
+}
+
+.row-end-footer{
+    background-color: cornflowerblue;
+}
+
+button.btn-primary {
+    background-color:darkorange ;
+}
+
+h3.main-judul::after{
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom:10px solid coral ;
+    width: 100px;
+    border-radius: 25px;
+    content: "";
+}
+
+.main-grey{
+    background-color: rgb(229, 255, 80);
+}
+#main-kolaborasi img{
+    max-height: 50px;
+    max-width: 150px;
+
+}
+#main-kolaborasi a{
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    padding: 25px 25px 25px 25px;
+    border-radius: 20px;
+    height: 260px;
+    width: 300px;
+    margin: auto;
+    border: none;
+    background-color: #b0dbe0;
+}

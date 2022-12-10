@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | FT-UMJ Rent car</title>
+    <link rel="Stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <header class="navbar sticky-top navbar-expand-lg navbar-dark main-nav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.png" class="main-logo main-logo-putih">
+                <img src="assets/img/logo-hitam.png" class="main-logo main-logo-hitam">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto py-2">
+                    <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+                    <a class="nav-link px-3" href="#">Rent Car</a>
+                    <a class="nav-link px-3" href="#">Schedule Availability</a>
+                    <a class="nav-link px-3" href="#">Unit List</a>
+                    <a class="nav-link px-3" href="#">Profile</a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-biru">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-9 text-center align-self-center">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/Terios.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/Xenia.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/Gran Max.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/Alphard.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div id="header" class="text-center">Login FT-UMJ RENT CAR</div><br>
+                    <form action="login-proses.php" method="post" onSubmit="return validasi()">
+                        <fieldset>
+                            <div>
+                                <label class="username">Username:</label>
+                                <input type="text" name="username" id="username" />
+                            </div>
+                            <div>
+                                <label class="pwd">Password:</label>
+                                <input type="password" name="password" id="password" />
+                            </div>
+                            <div>
+                                <input type="submit" value="Login" class="tombol">
+                            </div>
+                            <a class="nav-link px-3" href="#">Forgot password</a>
+                            <a class="nav-link px-3" href="#">Register</a>
+                        </fieldset>
+                    </form>
+                    <hr>
+                    Anda dapat langsung login untuk dapat menggunakan aplikasi ini.
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="upgrade" class="main-grey">
+        <div class="container py-3">
+            <p class="text-center">
+                <h3 class="text-center">Unit yang tersedia :</h3>
+            </p>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/Terios.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Terios</h5>
+                            <p class="card-text">Dengan melakukan rental mobil ini, anda sudah ikut bersedekah untuk Pondok Pesantren Hafidz Quran</p>
+                            <a href="#" class="btn btn-primary">Booking Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/Xenia.JPG" class= card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Xenia</h5>
+                            <p class="card-text">Dengan melakukan rental mobil ini, anda sudah ikut bersedekah untuk Pondok Pesantren Hafidz Quran.</p>
+                            <a href="#" class="btn btn-primary">Booking Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/Alphard.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Alphard</h5>
+                            <p class="card-text">Dengan melakukan rental mobil ini, anda sudah ikut bersedekah untuk Pondok Pesantren Hafidz Quran.</p>
+                            <a href="#" class="btn btn-primary">Booking Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/Gran Max.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gran Max Pick Up</h5>
+                            <p class="card-text">Dengan melakukan rental mobil ini, anda sudah ikut bersedekah untuk Pondok Pesantren Hafidz Quran.</p>
+                            <a href="#" class="btn btn-primary">Booking Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main-kolaborasi">
+        <div class="container py-3">
+            <h3 class="text-center main-judul">Full Support by :</h3>
+            <p class="text-center">
+                Untuk menjalankan bisnis ini, FT UMJ mendapatkan dukungan penuh dari lembaga - lembaga Universitas
+                Muhammadiyah Jakarta, diantaranya sebagai berikut :
+            </p>
+            <div class="text-center py-3">
+                <a href=""><img src="assets/img/logo_umj.png"> </a>
+                <a href=""><img src="assets/img/google.png"> </a>
+                <a href=""><img src="assets/img/ibm.png"> </a>
+                <a href=""><img src="assets/img/oracle.png"> </a>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section id="footer" class="main-footer" py-5>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h4>FT-UMJ RENT CAR</h4>
+                    FT-UMJ RENT CAR adalah salah satu bisnis usaha yang di kembangkan oleh Fakultas Teknik Universitas
+                    Muhammadiyah Jakarta.
+                    <hr>
+                    <b>Our Office</b><br>
+                    Fakultas Teknik Universitas Muhammadiyah Jakarta Gedung D Lt.1-3, Jalan Cempaka Putih Tengah XXVII,
+                    Cempaka Putih, RT.11/RW.5, Cemp. Putih Tim., Kec. Cemp. Putih, Kota Jakarta Pusat, Daerah Khusus
+                    Ibukota Jakarta 10510
+                    <hr>
+                </div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <h4>Another Link</h4>
+                    <a class="nav-link px-3" href="#">Booking a car</a>
+                    <a class="nav-link px-3" href="#">Schedule Availability</a>
+                    <a class="nav-link px-3" href="#">About us</a>
+                    <a class="nav-link px-3" href="#">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p class="text-center">
+        FT UMJ Rent a Car @2022 | Universitas Muhammadiyah Jakarta
+    </p>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
